@@ -1,0 +1,242 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+body {
+    text-align: center;
+    font-family: sans-serif;
+}
+body.redes {
+    background-image: radial-gradient( circle 767px at 10.2% 22.1%,  rgba(11,218,81,1) 0%, rgba(0,191,255,1) 90% );
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+.head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 63px;
+    background: #fd00c6;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+
+    .menu {
+        display: flex;
+        margin-right: 20px;
+    }
+
+    .logo {
+        margin-left: 10px;
+    }
+
+    .menu a {
+        display: block;
+        padding: 20px 20px;
+        color: #000000;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size: 15px;
+    }
+
+    .menu a:hover {
+        background: #EBDC27;
+    }
+
+.registro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.registro {
+    height: 60vh !important;
+    background: url(img/imagen4.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.title {
+    margin-bottom: 40px;
+    font-size: 60px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #33aee3;
+}
+
+p {
+    margin-bottom: 40px;
+    font-size: 28px;
+    color: #000000;
+    padding: 0 100px;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 40px;
+    border: 2px solid #9c27b0;
+    color: #000000;
+    text-decoration: none;
+    background: #9c27b0;
+}
+
+.btn:hover {
+    background: none;
+    
+}
+
+.btn-home {
+    display: flex;
+}
+
+.btn-home a {
+    margin: 0 10px;
+}
+
+
+.content {
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sau {
+    padding: 30px;
+    background: #8d8585;
+}
+
+.box-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+
+}
+
+.box-container .box {
+    height: 7rem;
+    width: 9rem;
+    background: #11b2de;
+    text-align: center;
+    border-radius: 1rem;
+    box-shadow: 0 .3rem 5rem rgba(225, 241, 79, 0.39);
+    margin: 2rem;  
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 40px;
+    color: #000000;
+    text-decoration: none;
+}
+
+.box-container .boton {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 40px;
+    border: 2px solid #11b2de;
+    color: #000000;
+    text-decoration: none;
+    background: #11b2de;
+}
+.box-container .box i {
+    height: 3rem;
+    width: 3rem;
+    line-height: 3rem;
+    text-align: center;
+    border-radius: 50%;
+    color: #fffefe;
+    background: #fcfcfc;
+    font-size: 2rem;
+    margin: 1rem 0;
+
+}
+
+.box-container .box a {
+    font-size: 20px;
+    color: #ffffff;
+
+}
+
+.box-container .box a {
+    padding: 0 15px;
+    font-size: 16px;
+}
+
+.about {
+    background: url(img/imagen6.jpg) no-repeat center;
+}
+
+.price {
+    background: url(img/imagen5.jpg) no-repeat center;
+    background-size: cover;
+    text-align: center;
+}
+
+
+.contact {
+    padding-top: 20px;
+    background: #39bbea;
+    padding-bottom: 0;
+
+}
+
+.map{
+   
+    width: 200px;
+    height: 200px;
+}
+.gmap_canvas {
+    align-content: right;
+}
+
+@media (max-width: 768px) {
+
+    .title {
+        margin-bottom: 0;
+        font-size: 40px;
+    }
+
+    .sau {
+        height: 100vh;
+    }
+
+    .navbar {
+        display: none;
+    }
+   
+    
+}
+
+.redes {
+    min-width: 700px;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .redes a {
+    text-decoration: none;
+    font-size: 28px;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    background: hsl(0, 0%, 100%);
+    color: #000000;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, .5);
+    transition: all .4s ease-in-out;
+  }
+  
+  .redes a:hover {
+    transform: scale(1.2);
+  }

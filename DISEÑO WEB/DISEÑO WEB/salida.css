@@ -1,0 +1,110 @@
+*{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+body {
+  text-align: center;
+  font-family: sans-serif;
+  background: #ffee0271;
+}
+body.redes {
+  background-image: radial-gradient( circle 767px at 10.2% 22.1%,  rgba(11,218,81,1) 0%, rgba(0,191,255,1) 90% );
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 63px;
+  background: #f8e80352;
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+}
+
+  .menu {
+      display: flex;
+      margin-right: 20px;
+  }
+
+  .logo {
+      margin-left: 10px;
+  }
+
+  .menu a {
+      display: block;
+      padding: 20px 20px;
+      color: #000000;
+      text-decoration: none;
+      text-transform: uppercase;
+      font-size: 15px;
+  }
+
+  .menu a:hover {
+      background: #EBDC27;
+  }
+
+form {
+    width: 400px;
+    background: #24303c;
+    padding: 40px;
+    margin: auto;
+    margin-top: 10px;
+    border-radius: 4px;
+    font-family: 'calibri';
+    color: white;
+    box-shadow: 7px 13px 37px #000;
+    text-align: center;
+  }
+  
+form h4 {
+    font-size: 22px;
+    margin-bottom: 20px;
+  }
+  
+.controls {
+    width: 100%;
+    background: #24303c;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #1f53c5;
+    font-family: 'calibri';
+    font-size: 18px;
+    color: white;
+  }
+  
+form p {
+    height: 40px;
+    text-align: right;
+    font-size: 18px;
+    line-height: 40px;
+  }
+  
+form a {
+    color: white;
+    text-decoration: none;
+  }
+  
+form a:hover {
+    color: white;
+    text-decoration: underline;
+  }
+  
+form .botons {
+    width: 100%;
+    background: #1f53c5;
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    font-size: 16px;
+  }
